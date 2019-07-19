@@ -1,11 +1,3 @@
-# Frizzbar
-Old vending machine with a new RFID reader.
+# Frizzbar Python Script
 
-## BOM
-	Raspberry Pi v2.0 B+
-	GrovePi+
-	Keyswitch
-	Pushbutton
-	Grove RGB LCD
-	Grove DHT temperature sensor
-	TowiTek RFID reader
+Software for an old Vendo Vending Machine. Accepts an RFID tag and compares it to a SQLite database. If there's enough credit, a simple relay is triggered to allow one can to be bought.
